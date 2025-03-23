@@ -1,314 +1,599 @@
-[2025-03-23 11:09:56] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
-[2025-03-23 11:09:56] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
-[2025-03-23 11:09:56] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
-[2025-03-23 11:09:57] [class-ss-archive-creation-job.php:172] Current task: setup
-[2025-03-23 11:09:57] [class-ss-archive-creation-job.php:182] Performing task: setup
-[2025-03-23 11:09:57] [class-ss-task.php:44] Status message: [setup] Setting up
-[2025-03-23 11:09:57] [class-ss-setup-task.php:33] Creating archive directory: G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742728196\
-[2025-03-23 11:09:57] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/strona/
-[2025-03-23 11:09:57] [class-ss-setup-task.php:146] File G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742728196/feed/index.html exists; adding to queue as: http://localhost/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742728196/feed/index.html
-[2025-03-23 11:09:57] [class-yoast-integration.php:92] Adding sitemap URL to queue: http://localhost/strona/sitemap.xml
-[2025-03-23 11:09:57] [class-yoast-integration.php:92] Adding sitemap URL to queue: http://localhost/strona/sitemap_index.xml
-[2025-03-23 11:09:57] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
-[2025-03-23 11:09:57] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
-[2025-03-23 11:09:57] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
-[2025-03-23 11:09:57] [class-ss-fetch-urls-task.php:66] Total pages: 4; Pages remaining: 4
-[2025-03-23 11:09:57] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/
-[2025-03-23 11:09:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 4
-[2025-03-23 11:09:57] [class-ss-fetch-urls-task.php:80] URL is not being excluded
-[2025-03-23 11:09:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dfec054db4d-3Qg8vI.tmp
-[2025-03-23 11:09:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/?simply_static_page=62869
-[2025-03-23 11:09:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/?simply_static_page=62869
-[2025-03-23 11:09:57] [class-ss-url-fetcher.php:103] Filesize: 50233 bytes
-[2025-03-23 11:09:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2025-03-23 11:09:57] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
-[2025-03-23 11:09:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dfec054db4d-3Qg8vI.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742728196/index.html
-[2025-03-23 11:09:57] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
-[2025-03-23 11:09:58] [class-ss-fetch-urls-task.php:155] Adding 15 URLs to the queue
-[2025-03-23 11:09:58] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
-[2025-03-23 11:09:58] [class-ss-page.php:119] Checking Content Identical:de7f7839b15d3ed3ccac1cc90f665e569430dcf7===. Value: FALSE
-[2025-03-23 11:09:58] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742728196/feed/index.html
-[2025-03-23 11:09:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 4
-[2025-03-23 11:09:58] [class-ss-fetch-urls-task.php:80] URL is not being excluded
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dfec06b10cd-W7zzkl.tmp
-[2025-03-23 11:09:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742728196/feed/index.html?simply_static_page=62870
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742728196/feed/index.html?simply_static_page=62870
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:103] Filesize: 339 bytes
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/simply-static/temp-files/simply-static-1-1742728196/feed/index.html
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dfec06b10cd-W7zzkl.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742728196/wp-content/uploads/simply-static/temp-files/simply-static-1-1742728196/feed/index.html
-[2025-03-23 11:09:58] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
-[2025-03-23 11:09:58] [class-ss-fetch-urls-task.php:155] Adding 1 URLs to the queue
-[2025-03-23 11:09:58] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
-[2025-03-23 11:09:58] [class-ss-page.php:119] Checking Content Identical:557f8a455cd33a297861d6b8f38edebb26edacc2===. Value: FALSE
-[2025-03-23 11:09:58] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/sitemap.xml
-[2025-03-23 11:09:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 4
-[2025-03-23 11:09:58] [class-ss-fetch-urls-task.php:80] URL is not being excluded
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dfec06ba047-XFbsIO.tmp
-[2025-03-23 11:09:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/sitemap.xml?simply_static_page=62871
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/sitemap.xml?simply_static_page=62871
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:103] Filesize: 784 bytes
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:233] New filename for static page: /sitemap.xml
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dfec06ba047-XFbsIO.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742728196/sitemap.xml
-[2025-03-23 11:09:58] [class-ss-yoast-sitemap-handler.php:85] Copied G:\xampp\htdocs\strona\wp-content\plugins\wordpress-seo/css/main-sitemap.xsl to G:/xampp/htdocs/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742728196/main-sitemap.xsl
-[2025-03-23 11:09:58] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
-[2025-03-23 11:09:58] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
-[2025-03-23 11:09:58] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
-[2025-03-23 11:09:58] [class-ss-page.php:119] Checking Content Identical:b06727f02b861bdb13c302c18699413be3c859ab===. Value: FALSE
-[2025-03-23 11:09:58] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/sitemap_index.xml
-[2025-03-23 11:09:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 4
-[2025-03-23 11:09:58] [class-ss-fetch-urls-task.php:80] URL is not being excluded
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dfec06bf395-rDBzHy.tmp
-[2025-03-23 11:09:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/sitemap_index.xml?simply_static_page=62872
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/sitemap_index.xml?simply_static_page=62872
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:103] Filesize: 784 bytes
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:233] New filename for static page: /sitemap_index.xml
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dfec06bf395-rDBzHy.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742728196/sitemap_index.xml
-[2025-03-23 11:09:58] [class-ss-yoast-sitemap-handler.php:64] Copied G:/xampp/htdocs/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742728196/sitemap_index.xml to G:/xampp/htdocs/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742728196/sitemap.xml
-[2025-03-23 11:09:58] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
-[2025-03-23 11:09:58] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
-[2025-03-23 11:09:58] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
-[2025-03-23 11:09:58] [class-ss-page.php:119] Checking Content Identical:b06727f02b861bdb13c302c18699413be3c859ab===. Value: FALSE
-[2025-03-23 11:09:58] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 4 pages/files
-[2025-03-23 11:09:58] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
-[2025-03-23 11:09:58] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
-[2025-03-23 11:09:58] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
-[2025-03-23 11:09:58] [class-ss-fetch-urls-task.php:66] Total pages: 19; Pages remaining: 15
-[2025-03-23 11:09:58] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/strona-glowna/about/
-[2025-03-23 11:09:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 19
-[2025-03-23 11:09:58] [class-ss-fetch-urls-task.php:80] URL is not being excluded
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dfec06c6463-AUWeNP.tmp
-[2025-03-23 11:09:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/strona-glowna/about/?simply_static_page=62873
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/strona-glowna/about/?simply_static_page=62873
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:103] Filesize: 48833 bytes
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:233] New filename for static page: /strona-glowna/about/index.html
-[2025-03-23 11:09:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dfec06c6463-AUWeNP.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742728196/strona-glowna/about/index.html
-[2025-03-23 11:09:58] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
-[2025-03-23 11:09:59] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
-[2025-03-23 11:09:59] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
-[2025-03-23 11:09:59] [class-ss-page.php:119] Checking Content Identical:62a089085fb0b55e503b26f1448f45c04630594b===. Value: FALSE
-[2025-03-23 11:09:59] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/strona-glowna/blog/
-[2025-03-23 11:09:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 19
-[2025-03-23 11:09:59] [class-ss-fetch-urls-task.php:80] URL is not being excluded
-[2025-03-23 11:09:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dfec07ad0a6-6fgNGM.tmp
-[2025-03-23 11:09:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/strona-glowna/blog/?simply_static_page=62874
-[2025-03-23 11:09:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/strona-glowna/blog/?simply_static_page=62874
-[2025-03-23 11:09:59] [class-ss-url-fetcher.php:103] Filesize: 51530 bytes
-[2025-03-23 11:09:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2025-03-23 11:09:59] [class-ss-url-fetcher.php:233] New filename for static page: /strona-glowna/blog/index.html
-[2025-03-23 11:09:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dfec07ad0a6-6fgNGM.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742728196/strona-glowna/blog/index.html
-[2025-03-23 11:09:59] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
-[2025-03-23 11:10:00] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
-[2025-03-23 11:10:00] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
-[2025-03-23 11:10:00] [class-ss-page.php:119] Checking Content Identical:e64c42800fd5b4e71154b0ed676cc9ae09436573===. Value: FALSE
-[2025-03-23 11:10:00] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/strona-glowna/contact/
-[2025-03-23 11:10:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 19
-[2025-03-23 11:10:00] [class-ss-fetch-urls-task.php:80] URL is not being excluded
-[2025-03-23 11:10:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dfec08c64fd-C4A9fV.tmp
-[2025-03-23 11:10:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/strona-glowna/contact/?simply_static_page=62875
-[2025-03-23 11:10:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/strona-glowna/contact/?simply_static_page=62875
-[2025-03-23 11:10:00] [class-ss-url-fetcher.php:103] Filesize: 60338 bytes
-[2025-03-23 11:10:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2025-03-23 11:10:00] [class-ss-url-fetcher.php:233] New filename for static page: /strona-glowna/contact/index.html
-[2025-03-23 11:10:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dfec08c64fd-C4A9fV.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742728196/strona-glowna/contact/index.html
-[2025-03-23 11:10:00] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
-[2025-03-23 11:10:01] [class-ss-page.php:119] Checking Content Identical:6dd1a0ca991aefdcdf4bb9e7a7ee238fe085da81===. Value: FALSE
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/uploads/2025/03/logo_strona-1.png
-[2025-03-23 11:10:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 19
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:80] URL is not being excluded
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dfec09b15ee-Hldheg.tmp
-[2025-03-23 11:10:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/uploads/2025/03/logo_strona-1.png?simply_static_page=62876
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/uploads/2025/03/logo_strona-1.png?simply_static_page=62876
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:103] Filesize: 29020 bytes
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/03/logo_strona-1.png
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dfec09b15ee-Hldheg.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742728196/wp-content/uploads/2025/03/logo_strona-1.png
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
-[2025-03-23 11:10:01] [class-ss-page.php:119] Checking Content Identical:6244af3a9014ad06d7befb2479f5308c15a430ff===. Value: FALSE
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/themes/neve/assets/js/build/modern/frontend.js
-[2025-03-23 11:10:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 19
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:80] URL is not being excluded
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dfec09b6e7f-7Moi8J.tmp
-[2025-03-23 11:10:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/themes/neve/assets/js/build/modern/frontend.js?simply_static_page=62877
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/themes/neve/assets/js/build/modern/frontend.js?simply_static_page=62877
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:103] Filesize: 7189 bytes
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve/assets/js/build/modern/frontend.js
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dfec09b6e7f-7Moi8J.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742728196/wp-content/themes/neve/assets/js/build/modern/frontend.js
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
-[2025-03-23 11:10:01] [class-ss-page.php:119] Checking Content Identical:6a3c3aef4ff68d3ad76fe492f44cc398322e56c7===. Value: FALSE
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/uploads/2025/03/logo_strona.png
-[2025-03-23 11:10:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 19
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:80] URL is not being excluded
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dfec09bc005-CWM23r.tmp
-[2025-03-23 11:10:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/uploads/2025/03/logo_strona.png?simply_static_page=62878
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/uploads/2025/03/logo_strona.png?simply_static_page=62878
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:103] Filesize: 29020 bytes
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/03/logo_strona.png
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dfec09bc005-CWM23r.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742728196/wp-content/uploads/2025/03/logo_strona.png
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
-[2025-03-23 11:10:01] [class-ss-page.php:119] Checking Content Identical:6244af3a9014ad06d7befb2479f5308c15a430ff===. Value: FALSE
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/feed/
-[2025-03-23 11:10:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 19
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:80] URL is not being excluded
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dfec09c273b-IxxPVc.tmp
-[2025-03-23 11:10:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/feed/?simply_static_page=62879
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/feed/?simply_static_page=62879
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:103] Filesize: 430 bytes
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.html
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dfec09c273b-IxxPVc.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742728196/feed/index.html
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
-[2025-03-23 11:10:01] [class-ss-page.php:119] Checking Content Identical:549f993b585b99cf7a026d0399edccb165cc6e3a===. Value: FALSE
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/comments/feed/
-[2025-03-23 11:10:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 19
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:80] URL is not being excluded
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dfec09ca51e-zeBBLb.tmp
-[2025-03-23 11:10:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/comments/feed/?simply_static_page=62880
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/comments/feed/?simply_static_page=62880
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:103] Filesize: 1354 bytes
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.html
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dfec09ca51e-zeBBLb.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742728196/comments/feed/index.html
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
-[2025-03-23 11:10:01] [class-ss-page.php:119] Checking Content Identical:2021be8dcdb9f89351e0196ef02b3a83fa274c86===. Value: FALSE
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-includes/css/dist/block-library/style.min.css
-[2025-03-23 11:10:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 19
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:80] URL is not being excluded
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dfec09cfe80-A223NY.tmp
-[2025-03-23 11:10:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-includes/css/dist/block-library/style.min.css?simply_static_page=62881
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-includes/css/dist/block-library/style.min.css?simply_static_page=62881
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:103] Filesize: 114706 bytes
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dfec09cfe80-A223NY.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742728196/wp-includes/css/dist/block-library/style.min.css
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
-[2025-03-23 11:10:01] [class-ss-page.php:119] Checking Content Identical:dc3b1a37381e079fda8db59c1a9469852cd18b80===. Value: FALSE
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/themes/neve/style-main-new.min.css
-[2025-03-23 11:10:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 19
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:80] URL is not being excluded
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dfec09db2ac-sKc2jB.tmp
-[2025-03-23 11:10:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/themes/neve/style-main-new.min.css?simply_static_page=62882
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/themes/neve/style-main-new.min.css?simply_static_page=62882
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:103] Filesize: 39826 bytes
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve/style-main-new.min.css
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dfec09db2ac-sKc2jB.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742728196/wp-content/themes/neve/style-main-new.min.css
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
-[2025-03-23 11:10:01] [class-ss-page.php:119] Checking Content Identical:dd1663a51ff83957c6dbb6a0ccedbba50831d812===. Value: FALSE
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-json/
-[2025-03-23 11:10:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 19
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/strona/wp-json/
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-json/wp/v2/pages/35
-[2025-03-23 11:10:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 19
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/strona/wp-json/wp/v2/pages/35
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/xmlrpc.php
-[2025-03-23 11:10:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 19
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/strona/xmlrpc.php
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-json/oembed/1.0/embed
-[2025-03-23 11:10:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 19
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/strona/wp-json/oembed/1.0/embed
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742728196/feed/index.xml
-[2025-03-23 11:10:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 19
-[2025-03-23 11:10:01] [class-ss-fetch-urls-task.php:80] URL is not being excluded
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dfec09e973f-5Z8mKa.tmp
-[2025-03-23 11:10:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742728196/feed/index.xml?simply_static_page=62887
-[2025-03-23 11:10:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742728196/feed/index.xml?simply_static_page=62887
-[2025-03-23 11:10:02] [class-ss-url-fetcher.php:103] Filesize: 45682 bytes
-[2025-03-23 11:10:02] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2025-03-23 11:10:02] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2025-03-23 11:10:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dfec0a9d648-UCyn22.tmp
-[2025-03-23 11:10:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742728196/feed/index.xml
-[2025-03-23 11:10:03] [class-ss-url-fetcher.php:103] Filesize: 45682 bytes
-[2025-03-23 11:10:03] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2025-03-23 11:10:03] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2025-03-23 11:10:03] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 4 of 19 pages/files
-[2025-03-23 11:10:03] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
-[2025-03-23 11:10:03] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
-[2025-03-23 11:10:03] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
-[2025-03-23 11:10:03] [class-ss-fetch-urls-task.php:66] Total pages: 19; Pages remaining: 0
-[2025-03-23 11:10:03] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 19 of 19 pages/files
-[2025-03-23 11:10:03] [class-ss-archive-creation-job.php:204] We've found our next task: generate_404
-[2025-03-23 11:10:03] [class-ss-archive-creation-job.php:172] Current task: generate_404
-[2025-03-23 11:10:03] [class-ss-archive-creation-job.php:182] Performing task: generate_404
-[2025-03-23 11:10:03] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
-[2025-03-23 11:10:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dfec0b56541-Cfq7dg.tmp
-[2025-03-23 11:10:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/1742728204?simply_static_page=0
-[2025-03-23 11:10:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/1742728204?simply_static_page=0
-[2025-03-23 11:10:04] [class-ss-url-fetcher.php:103] Filesize: 45682 bytes
-[2025-03-23 11:10:04] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2025-03-23 11:10:04] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
-[2025-03-23 11:10:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dfec0b56541-Cfq7dg.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742728196\404/index.html
-[2025-03-23 11:10:04] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
-[2025-03-23 11:10:04] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
-[2025-03-23 11:10:04] [class-ss-page.php:119] Checking Content Identical:5e7662fea5d9b3d73e5b54d6b6dffeac9a613bd2===. Value: FALSE
-[2025-03-23 11:10:04] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
-[2025-03-23 11:10:04] [class-ss-archive-creation-job.php:204] We've found our next task: transfer_files_locally
-[2025-03-23 11:10:04] [class-ss-archive-creation-job.php:234] Cleaning on first run for task: transfer_files_locally
-[2025-03-23 11:10:04] [class-ss-archive-creation-job.php:172] Current task: transfer_files_locally
-[2025-03-23 11:10:04] [class-ss-archive-creation-job.php:182] Performing task: transfer_files_locally
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /index.html
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/simply-static/temp-files/simply-static-1-1742728196/feed/index.html
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742728196/feed
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /sitemap.xml
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /sitemap_index.xml
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /strona-glowna/about/index.html
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/strona-glowna/about
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /strona-glowna/blog/index.html
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/strona-glowna/blog
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /strona-glowna/contact/index.html
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/strona-glowna/contact
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/03/logo_strona-1.png
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-content/uploads/2025/03
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/neve/assets/js/build/modern/frontend.js
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-content/themes/neve/assets/js/build/modern
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/03/logo_strona.png
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-content/uploads/2025/03
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /feed/index.html
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/feed
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /comments/feed/index.html
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/comments/feed
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/css/dist/block-library/style.min.css
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-includes/css/dist/block-library
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/neve/style-main-new.min.css
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-content/themes/neve
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:98] [Transfer] Total Pages:14. Processed Pages: 14
-[2025-03-23 11:10:04] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 14 of 14 files
-[2025-03-23 11:10:04] [trait-can-process-pages.php:114] Total pages: 14; Pages remaining: 0
-[2025-03-23 11:10:04] [class-ss-transfer-files-locally-task.php:197] Transferring 404 Page
-[2025-03-23 11:10:04] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://m4upa.github.io/strona/" target="_blank">https://m4upa.github.io/strona/</a>
-[2025-03-23 11:10:04] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
-[2025-03-23 11:10:04] [class-ss-archive-creation-job.php:172] Current task: wrapup
-[2025-03-23 11:10:04] [class-ss-archive-creation-job.php:182] Performing task: wrapup
-[2025-03-23 11:10:04] [class-ss-wrapup-task.php:23] Deleting temporary files
-[2025-03-23 11:10:04] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
-[2025-03-23 11:10:04] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
-[2025-03-23 11:10:04] [class-ss-archive-creation-job.php:244] Completing the job
-[2025-03-23 11:10:04] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:00:08
+[2025-03-23 11:27:13] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2025-03-23 11:27:13] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2025-03-23 11:27:13] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2025-03-23 11:27:14] [class-ss-archive-creation-job.php:172] Current task: setup
+[2025-03-23 11:27:14] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2025-03-23 11:27:14] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-03-23 11:27:14] [class-ss-setup-task.php:33] Creating archive directory: G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233\
+[2025-03-23 11:27:14] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/strona/
+[2025-03-23 11:27:14] [class-ss-setup-task.php:146] File G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/feed/index.html exists; adding to queue as: http://localhost/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742729233/feed/index.html
+[2025-03-23 11:27:14] [class-yoast-integration.php:92] Adding sitemap URL to queue: http://localhost/strona/sitemap.xml
+[2025-03-23 11:27:14] [class-yoast-integration.php:92] Adding sitemap URL to queue: http://localhost/strona/sitemap_index.xml
+[2025-03-23 11:27:14] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2025-03-23 11:27:14] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-03-23 11:27:14] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-03-23 11:27:14] [class-ss-fetch-urls-task.php:66] Total pages: 4; Pages remaining: 4
+[2025-03-23 11:27:14] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/
+[2025-03-23 11:27:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 4
+[2025-03-23 11:27:14] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff012a6f28-32v1MI.tmp
+[2025-03-23 11:27:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/?simply_static_page=62888
+[2025-03-23 11:27:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/?simply_static_page=62888
+[2025-03-23 11:27:15] [class-ss-url-fetcher.php:103] Filesize: 50241 bytes
+[2025-03-23 11:27:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-03-23 11:27:15] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-03-23 11:27:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff012a6f28-32v1MI.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/index.html
+[2025-03-23 11:27:15] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:15] [class-ss-fetch-urls-task.php:155] Adding 15 URLs to the queue
+[2025-03-23 11:27:15] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:16] [class-ss-page.php:119] Checking Content Identical:c8b901b1a1373ec568120bc5dc0e08ed6628ecaf===. Value: FALSE
+[2025-03-23 11:27:16] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742729233/feed/index.html
+[2025-03-23 11:27:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 4
+[2025-03-23 11:27:16] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff0140d758-KdnQuf.tmp
+[2025-03-23 11:27:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742729233/feed/index.html?simply_static_page=62889
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742729233/feed/index.html?simply_static_page=62889
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:103] Filesize: 339 bytes
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/simply-static/temp-files/simply-static-1-1742729233/feed/index.html
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff0140d758-KdnQuf.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/wp-content/uploads/simply-static/temp-files/simply-static-1-1742729233/feed/index.html
+[2025-03-23 11:27:16] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:16] [class-ss-fetch-urls-task.php:155] Adding 1 URLs to the queue
+[2025-03-23 11:27:16] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:16] [class-ss-page.php:119] Checking Content Identical:202109de048d377321e0692bc8aedef7be0bd076===. Value: FALSE
+[2025-03-23 11:27:16] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/sitemap.xml
+[2025-03-23 11:27:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 4
+[2025-03-23 11:27:16] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01418692-59dPEA.tmp
+[2025-03-23 11:27:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/sitemap.xml?simply_static_page=62890
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/sitemap.xml?simply_static_page=62890
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:103] Filesize: 784 bytes
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:233] New filename for static page: /sitemap.xml
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01418692-59dPEA.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/sitemap.xml
+[2025-03-23 11:27:16] [class-ss-yoast-sitemap-handler.php:85] Copied G:\xampp\htdocs\strona\wp-content\plugins\wordpress-seo/css/main-sitemap.xsl to G:/xampp/htdocs/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742729233/main-sitemap.xsl
+[2025-03-23 11:27:16] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:16] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:16] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:16] [class-ss-page.php:119] Checking Content Identical:b06727f02b861bdb13c302c18699413be3c859ab===. Value: FALSE
+[2025-03-23 11:27:16] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/sitemap_index.xml
+[2025-03-23 11:27:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 4
+[2025-03-23 11:27:16] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff0141d98f-4G0vOn.tmp
+[2025-03-23 11:27:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/sitemap_index.xml?simply_static_page=62891
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/sitemap_index.xml?simply_static_page=62891
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:103] Filesize: 784 bytes
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:233] New filename for static page: /sitemap_index.xml
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff0141d98f-4G0vOn.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/sitemap_index.xml
+[2025-03-23 11:27:16] [class-ss-yoast-sitemap-handler.php:64] Copied G:/xampp/htdocs/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742729233/sitemap_index.xml to G:/xampp/htdocs/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742729233/sitemap.xml
+[2025-03-23 11:27:16] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:16] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:16] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:16] [class-ss-page.php:119] Checking Content Identical:b06727f02b861bdb13c302c18699413be3c859ab===. Value: FALSE
+[2025-03-23 11:27:16] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 4 pages/files
+[2025-03-23 11:27:16] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-03-23 11:27:16] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-03-23 11:27:16] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-03-23 11:27:16] [class-ss-fetch-urls-task.php:66] Total pages: 19; Pages remaining: 15
+[2025-03-23 11:27:16] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/strona-glowna/about/
+[2025-03-23 11:27:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 19
+[2025-03-23 11:27:16] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01424018-POmDyF.tmp
+[2025-03-23 11:27:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/strona-glowna/about/?simply_static_page=62892
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/strona-glowna/about/?simply_static_page=62892
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:103] Filesize: 53715 bytes
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:233] New filename for static page: /strona-glowna/about/index.html
+[2025-03-23 11:27:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01424018-POmDyF.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/strona-glowna/about/index.html
+[2025-03-23 11:27:16] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:17] [class-ss-fetch-urls-task.php:155] Adding 15 URLs to the queue
+[2025-03-23 11:27:17] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:17] [class-ss-page.php:119] Checking Content Identical:a3a6eec1e096ced3231355188db19c908650ec71===. Value: FALSE
+[2025-03-23 11:27:17] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/strona-glowna/blog/
+[2025-03-23 11:27:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 19
+[2025-03-23 11:27:17] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01581b36-fQ6pK5.tmp
+[2025-03-23 11:27:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/strona-glowna/blog/?simply_static_page=62893
+[2025-03-23 11:27:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/strona-glowna/blog/?simply_static_page=62893
+[2025-03-23 11:27:18] [class-ss-url-fetcher.php:103] Filesize: 51542 bytes
+[2025-03-23 11:27:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-03-23 11:27:18] [class-ss-url-fetcher.php:233] New filename for static page: /strona-glowna/blog/index.html
+[2025-03-23 11:27:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01581b36-fQ6pK5.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/strona-glowna/blog/index.html
+[2025-03-23 11:27:18] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:18] [class-ss-fetch-urls-task.php:155] Adding 17 URLs to the queue
+[2025-03-23 11:27:18] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:18] [class-ss-page.php:119] Checking Content Identical:0ceb750160ad3505c0daa67ff24180984bfeb6a4===. Value: FALSE
+[2025-03-23 11:27:18] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/strona-glowna/contact/
+[2025-03-23 11:27:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 19
+[2025-03-23 11:27:18] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff016d9eda-thbsrZ.tmp
+[2025-03-23 11:27:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/strona-glowna/contact/?simply_static_page=62894
+[2025-03-23 11:27:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/strona-glowna/contact/?simply_static_page=62894
+[2025-03-23 11:27:19] [class-ss-url-fetcher.php:103] Filesize: 61804 bytes
+[2025-03-23 11:27:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-03-23 11:27:19] [class-ss-url-fetcher.php:233] New filename for static page: /strona-glowna/contact/index.html
+[2025-03-23 11:27:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff016d9eda-thbsrZ.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/strona-glowna/contact/index.html
+[2025-03-23 11:27:19] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:155] Adding 25 URLs to the queue
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:20] [class-ss-page.php:119] Checking Content Identical:e4a093507aed6d30a165d7d66c13fa43fb44f42f===. Value: FALSE
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/uploads/2025/03/logo_strona-1.png
+[2025-03-23 11:27:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 19
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff0185691d-Uso5T5.tmp
+[2025-03-23 11:27:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/uploads/2025/03/logo_strona-1.png?simply_static_page=62895
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/uploads/2025/03/logo_strona-1.png?simply_static_page=62895
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:103] Filesize: 29020 bytes
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/03/logo_strona-1.png
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff0185691d-Uso5T5.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/wp-content/uploads/2025/03/logo_strona-1.png
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:20] [class-ss-page.php:119] Checking Content Identical:6244af3a9014ad06d7befb2479f5308c15a430ff===. Value: FALSE
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/themes/neve/assets/js/build/modern/frontend.js
+[2025-03-23 11:27:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 19
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff0185c7ba-F5jz7q.tmp
+[2025-03-23 11:27:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/themes/neve/assets/js/build/modern/frontend.js?simply_static_page=62896
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/themes/neve/assets/js/build/modern/frontend.js?simply_static_page=62896
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:103] Filesize: 7189 bytes
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve/assets/js/build/modern/frontend.js
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff0185c7ba-F5jz7q.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/wp-content/themes/neve/assets/js/build/modern/frontend.js
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:20] [class-ss-page.php:119] Checking Content Identical:6a3c3aef4ff68d3ad76fe492f44cc398322e56c7===. Value: FALSE
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/uploads/2025/03/logo_strona.png
+[2025-03-23 11:27:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 19
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01865649-aOtz1d.tmp
+[2025-03-23 11:27:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/uploads/2025/03/logo_strona.png?simply_static_page=62897
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/uploads/2025/03/logo_strona.png?simply_static_page=62897
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:103] Filesize: 29020 bytes
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/03/logo_strona.png
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01865649-aOtz1d.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/wp-content/uploads/2025/03/logo_strona.png
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:20] [class-ss-page.php:119] Checking Content Identical:6244af3a9014ad06d7befb2479f5308c15a430ff===. Value: FALSE
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/feed/
+[2025-03-23 11:27:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 19
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff0186b25f-zsgxuc.tmp
+[2025-03-23 11:27:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/feed/?simply_static_page=62898
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/feed/?simply_static_page=62898
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:103] Filesize: 430 bytes
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.html
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff0186b25f-zsgxuc.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/feed/index.html
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:20] [class-ss-page.php:119] Checking Content Identical:557f8a455cd33a297861d6b8f38edebb26edacc2===. Value: FALSE
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/comments/feed/
+[2025-03-23 11:27:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 19
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01872474-BQlsFe.tmp
+[2025-03-23 11:27:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/comments/feed/?simply_static_page=62899
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/comments/feed/?simply_static_page=62899
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:103] Filesize: 1354 bytes
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.html
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01872474-BQlsFe.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/comments/feed/index.html
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:20] [class-ss-page.php:119] Checking Content Identical:2021be8dcdb9f89351e0196ef02b3a83fa274c86===. Value: FALSE
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-includes/css/dist/block-library/style.min.css
+[2025-03-23 11:27:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 19
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff018779f9-vtNY1E.tmp
+[2025-03-23 11:27:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-includes/css/dist/block-library/style.min.css?simply_static_page=62900
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-includes/css/dist/block-library/style.min.css?simply_static_page=62900
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:103] Filesize: 114706 bytes
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff018779f9-vtNY1E.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/wp-includes/css/dist/block-library/style.min.css
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:20] [class-ss-page.php:119] Checking Content Identical:dc3b1a37381e079fda8db59c1a9469852cd18b80===. Value: FALSE
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/themes/neve/style-main-new.min.css
+[2025-03-23 11:27:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 19
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff018838eb-HKT73K.tmp
+[2025-03-23 11:27:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/themes/neve/style-main-new.min.css?simply_static_page=62901
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/themes/neve/style-main-new.min.css?simply_static_page=62901
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:103] Filesize: 39826 bytes
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve/style-main-new.min.css
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff018838eb-HKT73K.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/wp-content/themes/neve/style-main-new.min.css
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:20] [class-ss-page.php:119] Checking Content Identical:dd1663a51ff83957c6dbb6a0ccedbba50831d812===. Value: FALSE
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-json/
+[2025-03-23 11:27:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 19
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/strona/wp-json/
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-json/wp/v2/pages/35
+[2025-03-23 11:27:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 19
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/strona/wp-json/wp/v2/pages/35
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/xmlrpc.php
+[2025-03-23 11:27:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 19
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/strona/xmlrpc.php
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-json/oembed/1.0/embed
+[2025-03-23 11:27:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 19
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/strona/wp-json/oembed/1.0/embed
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742729233/feed/index.xml
+[2025-03-23 11:27:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 19
+[2025-03-23 11:27:20] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff0189566e-DjlBiQ.tmp
+[2025-03-23 11:27:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742729233/feed/index.xml?simply_static_page=62906
+[2025-03-23 11:27:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742729233/feed/index.xml?simply_static_page=62906
+[2025-03-23 11:27:21] [class-ss-url-fetcher.php:103] Filesize: 45690 bytes
+[2025-03-23 11:27:21] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-03-23 11:27:21] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-03-23 11:27:21] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff0194fdac-gX2EEk.tmp
+[2025-03-23 11:27:21] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742729233/feed/index.xml
+[2025-03-23 11:27:21] [class-ss-url-fetcher.php:103] Filesize: 45690 bytes
+[2025-03-23 11:27:21] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-03-23 11:27:21] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-03-23 11:27:22] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 4 of 19 pages/files
+[2025-03-23 11:27:22] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-03-23 11:27:22] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-03-23 11:27:22] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-03-23 11:27:22] [class-ss-fetch-urls-task.php:66] Total pages: 38; Pages remaining: 19
+[2025-03-23 11:27:22] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/uploads/2025/03/image.png
+[2025-03-23 11:27:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 38
+[2025-03-23 11:27:22] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01a0ed99-ikW1Z7.tmp
+[2025-03-23 11:27:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/uploads/2025/03/image.png?simply_static_page=62907
+[2025-03-23 11:27:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/uploads/2025/03/image.png?simply_static_page=62907
+[2025-03-23 11:27:22] [class-ss-url-fetcher.php:103] Filesize: 134823 bytes
+[2025-03-23 11:27:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-03-23 11:27:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/03/image.png
+[2025-03-23 11:27:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01a0ed99-ikW1Z7.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/wp-content/uploads/2025/03/image.png
+[2025-03-23 11:27:22] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:22] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:22] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:22] [class-ss-page.php:119] Checking Content Identical:828b0a7c8aff38c4bc6eda58a0c7a681c6312f29===. Value: FALSE
+[2025-03-23 11:27:22] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-json/wp/v2/pages/8
+[2025-03-23 11:27:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 38
+[2025-03-23 11:27:22] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/strona/wp-json/wp/v2/pages/8
+[2025-03-23 11:27:22] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-23 11:27:22] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/smaki-tajlandii-na-ulicznym-targu/
+[2025-03-23 11:27:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 38
+[2025-03-23 11:27:22] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01a156ed-gEBKov.tmp
+[2025-03-23 11:27:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/smaki-tajlandii-na-ulicznym-targu/?simply_static_page=62909
+[2025-03-23 11:27:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/smaki-tajlandii-na-ulicznym-targu/?simply_static_page=62909
+[2025-03-23 11:27:22] [class-ss-url-fetcher.php:103] Filesize: 56703 bytes
+[2025-03-23 11:27:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-03-23 11:27:22] [class-ss-url-fetcher.php:233] New filename for static page: /smaki-tajlandii-na-ulicznym-targu/index.html
+[2025-03-23 11:27:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01a156ed-gEBKov.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/smaki-tajlandii-na-ulicznym-targu/index.html
+[2025-03-23 11:27:22] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:22] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:22] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:22] [class-ss-page.php:119] Checking Content Identical:ff3004a118b15b7bc70b322dc15ffcaf19b169bf===. Value: FALSE
+[2025-03-23 11:27:22] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/author/adam/
+[2025-03-23 11:27:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 38
+[2025-03-23 11:27:22] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01aeb279-ia3HeW.tmp
+[2025-03-23 11:27:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/author/adam/?simply_static_page=62910
+[2025-03-23 11:27:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/author/adam/?simply_static_page=62910
+[2025-03-23 11:27:22] [class-ss-url-fetcher.php:103] Filesize: 44342 bytes
+[2025-03-23 11:27:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-03-23 11:27:22] [class-ss-url-fetcher.php:233] New filename for static page: /author/adam/index.html
+[2025-03-23 11:27:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01aeb279-ia3HeW.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/author/adam/index.html
+[2025-03-23 11:27:22] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:23] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:23] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:23] [class-ss-page.php:119] Checking Content Identical:89c83d83354e51dd36ee831e6596ac8145751adc===. Value: FALSE
+[2025-03-23 11:27:23] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/category/bez-kategorii/
+[2025-03-23 11:27:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 38
+[2025-03-23 11:27:23] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01bceff3-aBj4Nh.tmp
+[2025-03-23 11:27:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/category/bez-kategorii/?simply_static_page=62911
+[2025-03-23 11:27:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/category/bez-kategorii/?simply_static_page=62911
+[2025-03-23 11:27:23] [class-ss-url-fetcher.php:103] Filesize: 44399 bytes
+[2025-03-23 11:27:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-03-23 11:27:23] [class-ss-url-fetcher.php:233] New filename for static page: /category/bez-kategorii/index.html
+[2025-03-23 11:27:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01bceff3-aBj4Nh.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/category/bez-kategorii/index.html
+[2025-03-23 11:27:23] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:24] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:24] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:24] [class-ss-page.php:119] Checking Content Identical:7b14e1fc522d09a4f0e0d6823006b8087ac12709===. Value: FALSE
+[2025-03-23 11:27:24] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wschod-slonca-nad-wielkim-kanionem/
+[2025-03-23 11:27:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 38
+[2025-03-23 11:27:24] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01cbd083-k0PMdZ.tmp
+[2025-03-23 11:27:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wschod-slonca-nad-wielkim-kanionem/?simply_static_page=62912
+[2025-03-23 11:27:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wschod-slonca-nad-wielkim-kanionem/?simply_static_page=62912
+[2025-03-23 11:27:24] [class-ss-url-fetcher.php:103] Filesize: 56834 bytes
+[2025-03-23 11:27:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-03-23 11:27:24] [class-ss-url-fetcher.php:233] New filename for static page: /wschod-slonca-nad-wielkim-kanionem/index.html
+[2025-03-23 11:27:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01cbd083-k0PMdZ.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/wschod-slonca-nad-wielkim-kanionem/index.html
+[2025-03-23 11:27:24] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:25] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:25] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:25] [class-ss-page.php:119] Checking Content Identical:5983bdb801beb522fe04c907b02922c273d9f9b5===. Value: FALSE
+[2025-03-23 11:27:25] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/witaj-swiecie/
+[2025-03-23 11:27:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 38
+[2025-03-23 11:27:25] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01d9e776-1whol3.tmp
+[2025-03-23 11:27:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/witaj-swiecie/?simply_static_page=62913
+[2025-03-23 11:27:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/witaj-swiecie/?simply_static_page=62913
+[2025-03-23 11:27:25] [class-ss-url-fetcher.php:103] Filesize: 50057 bytes
+[2025-03-23 11:27:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-03-23 11:27:25] [class-ss-url-fetcher.php:233] New filename for static page: /witaj-swiecie/index.html
+[2025-03-23 11:27:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01d9e776-1whol3.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/witaj-swiecie/index.html
+[2025-03-23 11:27:25] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:26] [class-ss-page.php:119] Checking Content Identical:0722aa693d6bf4a796a0d85fe81876d9dc29f119===. Value: FALSE
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg
+[2025-03-23 11:27:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 38
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01e801a1-Nbg6tK.tmp
+[2025-03-23 11:27:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg?simply_static_page=62914
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg?simply_static_page=62914
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:103] Filesize: 509 bytes
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01e801a1-Nbg6tK.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:26] [class-ss-page.php:119] Checking Content Identical:2efc98059ba9c28d93312c2e51f63feb76f8a3b6===. Value: FALSE
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/uploads/2025/03/image-4.png
+[2025-03-23 11:27:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 38
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01e858cb-bOjvJ7.tmp
+[2025-03-23 11:27:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/uploads/2025/03/image-4.png?simply_static_page=62915
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/uploads/2025/03/image-4.png?simply_static_page=62915
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:103] Filesize: 38479 bytes
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/03/image-4.png
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01e858cb-bOjvJ7.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/wp-content/uploads/2025/03/image-4.png
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:26] [class-ss-page.php:119] Checking Content Identical:dc07b0875d20a39ae7559f81a9a945e69aed1352===. Value: FALSE
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-includes/js/jquery/jquery.min.js
+[2025-03-23 11:27:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 38
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01e8ad5c-8sMoCl.tmp
+[2025-03-23 11:27:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-includes/js/jquery/jquery.min.js?simply_static_page=62916
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-includes/js/jquery/jquery.min.js?simply_static_page=62916
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01e8ad5c-8sMoCl.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/wp-includes/js/jquery/jquery.min.js
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:26] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-03-23 11:27:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 38
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01e989dd-9IRAsr.tmp
+[2025-03-23 11:27:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=62917
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=62917
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01e989dd-9IRAsr.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:26] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js
+[2025-03-23 11:27:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 38
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01ea3f05-j6enWj.tmp
+[2025-03-23 11:27:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js?simply_static_page=62918
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js?simply_static_page=62918
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:103] Filesize: 25308 bytes
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01ea3f05-j6enWj.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:26] [class-ss-page.php:119] Checking Content Identical:edca17b69a2c084c2abd43c7bda614dd7e04d2c6===. Value: FALSE
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/plugins/wpforms-lite/assets/lib/mailcheck.min.js
+[2025-03-23 11:27:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 38
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01eae03e-9xPJ7Z.tmp
+[2025-03-23 11:27:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/plugins/wpforms-lite/assets/lib/mailcheck.min.js?simply_static_page=62919
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/plugins/wpforms-lite/assets/lib/mailcheck.min.js?simply_static_page=62919
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:103] Filesize: 4014 bytes
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpforms-lite/assets/lib/mailcheck.min.js
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01eae03e-9xPJ7Z.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/wp-content/plugins/wpforms-lite/assets/lib/mailcheck.min.js
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:26] [class-ss-page.php:119] Checking Content Identical:bba43108f022eaa28a7637c1ed7b7cb287d1691d===. Value: FALSE
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/plugins/wpforms-lite/assets/lib/punycode.min.js
+[2025-03-23 11:27:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 38
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01eb243d-JOu9VV.tmp
+[2025-03-23 11:27:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/plugins/wpforms-lite/assets/lib/punycode.min.js?simply_static_page=62920
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/plugins/wpforms-lite/assets/lib/punycode.min.js?simply_static_page=62920
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:103] Filesize: 1713 bytes
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpforms-lite/assets/lib/punycode.min.js
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01eb243d-JOu9VV.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/wp-content/plugins/wpforms-lite/assets/lib/punycode.min.js
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:26] [class-ss-page.php:119] Checking Content Identical:0dc76a6bcad4bdce1b88ec6e68215733c97fc520===. Value: FALSE
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/plugins/wpforms-lite/assets/js/share/utils.min.js
+[2025-03-23 11:27:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 38
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01eb6249-hdDFOK.tmp
+[2025-03-23 11:27:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/plugins/wpforms-lite/assets/js/share/utils.min.js?simply_static_page=62921
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/plugins/wpforms-lite/assets/js/share/utils.min.js?simply_static_page=62921
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:103] Filesize: 1500 bytes
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpforms-lite/assets/js/share/utils.min.js
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01eb6249-hdDFOK.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/wp-content/plugins/wpforms-lite/assets/js/share/utils.min.js
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:26] [class-ss-page.php:119] Checking Content Identical:400983f99d86999e827cc2934bb0a9e299c46aca===. Value: FALSE
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms.min.js
+[2025-03-23 11:27:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 38
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01eba6df-XKexSp.tmp
+[2025-03-23 11:27:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms.min.js?simply_static_page=62922
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms.min.js?simply_static_page=62922
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:103] Filesize: 47963 bytes
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms.min.js
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01eba6df-XKexSp.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms.min.js
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:26] [class-ss-page.php:119] Checking Content Identical:27ac0bf19a648fcf09a0c899c71d8b78b258d5f5===. Value: FALSE
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms-modern.min.js
+[2025-03-23 11:27:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 38
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01ec464a-2qWGEB.tmp
+[2025-03-23 11:27:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms-modern.min.js?simply_static_page=62923
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms-modern.min.js?simply_static_page=62923
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:103] Filesize: 6006 bytes
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms-modern.min.js
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01ec464a-2qWGEB.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms-modern.min.js
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:26] [class-ss-page.php:119] Checking Content Identical:8c5510ad6014b28d3a9d10fe4bf68cc6cb21b507===. Value: FALSE
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-content/plugins/wpforms-lite/assets/css/frontend/modern/wpforms-full.min.css
+[2025-03-23 11:27:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 38
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01ec8959-KMEGfF.tmp
+[2025-03-23 11:27:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/wp-content/plugins/wpforms-lite/assets/css/frontend/modern/wpforms-full.min.css?simply_static_page=62924
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/wp-content/plugins/wpforms-lite/assets/css/frontend/modern/wpforms-full.min.css?simply_static_page=62924
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:103] Filesize: 161311 bytes
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpforms-lite/assets/css/frontend/modern/wpforms-full.min.css
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01ec8959-KMEGfF.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233/wp-content/plugins/wpforms-lite/assets/css/frontend/modern/wpforms-full.min.css
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-23 11:27:26] [class-ss-page.php:119] Checking Content Identical:67f7a8090c5d86b876de22852d4c45efb2fe4bea===. Value: FALSE
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:69] URL: http://localhost/strona/wp-json/wp/v2/pages/9
+[2025-03-23 11:27:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 38
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/strona/wp-json/wp/v2/pages/9
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-23 11:27:26] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 19 of 38 pages/files
+[2025-03-23 11:27:26] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-03-23 11:27:26] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-03-23 11:27:26] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-03-23 11:27:26] [class-ss-fetch-urls-task.php:66] Total pages: 38; Pages remaining: 0
+[2025-03-23 11:27:26] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 38 of 38 pages/files
+[2025-03-23 11:27:26] [class-ss-archive-creation-job.php:204] We've found our next task: generate_404
+[2025-03-23 11:27:26] [class-ss-archive-creation-job.php:172] Current task: generate_404
+[2025-03-23 11:27:26] [class-ss-archive-creation-job.php:182] Performing task: generate_404
+[2025-03-23 11:27:26] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\adasr\AppData\Local\Temp/67dff01ed8807-AXy4Cd.tmp
+[2025-03-23 11:27:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/strona/1742729247?simply_static_page=0
+[2025-03-23 11:27:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/strona/1742729247?simply_static_page=0
+[2025-03-23 11:27:27] [class-ss-url-fetcher.php:103] Filesize: 45690 bytes
+[2025-03-23 11:27:27] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-03-23 11:27:27] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2025-03-23 11:27:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\adasr\AppData\Local\Temp/67dff01ed8807-AXy4Cd.tmp to G:\xampp\htdocs\strona/wp-content/uploads\simply-static\temp-files/simply-static-1-1742729233\404/index.html
+[2025-03-23 11:27:27] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2025-03-23 11:27:28] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2025-03-23 11:27:28] [class-ss-page.php:119] Checking Content Identical:2c8193d99763cdd40c5d3b7c23f712d1e8d3a927===. Value: FALSE
+[2025-03-23 11:27:28] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2025-03-23 11:27:28] [class-ss-archive-creation-job.php:204] We've found our next task: transfer_files_locally
+[2025-03-23 11:27:28] [class-ss-archive-creation-job.php:234] Cleaning on first run for task: transfer_files_locally
+[2025-03-23 11:27:28] [class-ss-archive-creation-job.php:172] Current task: transfer_files_locally
+[2025-03-23 11:27:28] [class-ss-archive-creation-job.php:182] Performing task: transfer_files_locally
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /index.html
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/simply-static/temp-files/simply-static-1-1742729233/feed/index.html
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-content/uploads/simply-static/temp-files/simply-static-1-1742729233/feed
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /sitemap.xml
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /sitemap_index.xml
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /strona-glowna/about/index.html
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/strona-glowna/about
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /strona-glowna/blog/index.html
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/strona-glowna/blog
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /strona-glowna/contact/index.html
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/strona-glowna/contact
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/03/logo_strona-1.png
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-content/uploads/2025/03
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/neve/assets/js/build/modern/frontend.js
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-content/themes/neve/assets/js/build/modern
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/03/logo_strona.png
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-content/uploads/2025/03
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /feed/index.html
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/feed
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /comments/feed/index.html
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/comments/feed
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/css/dist/block-library/style.min.css
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-includes/css/dist/block-library
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/neve/style-main-new.min.css
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-content/themes/neve
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/03/image.png
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-content/uploads/2025/03
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /smaki-tajlandii-na-ulicznym-targu/index.html
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/smaki-tajlandii-na-ulicznym-targu
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /author/adam/index.html
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/author/adam
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /category/bez-kategorii/index.html
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/category/bez-kategorii
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wschod-slonca-nad-wielkim-kanionem/index.html
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wschod-slonca-nad-wielkim-kanionem
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /witaj-swiecie/index.html
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/witaj-swiecie
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-content/plugins/wpforms-lite/assets/images
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/03/image-4.png
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-content/uploads/2025/03
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/jquery/jquery.min.js
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-includes/js/jquery
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/jquery/jquery-migrate.min.js
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-includes/js/jquery
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-content/plugins/wpforms-lite/assets/lib
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/wpforms-lite/assets/lib/mailcheck.min.js
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-content/plugins/wpforms-lite/assets/lib
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/wpforms-lite/assets/lib/punycode.min.js
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-content/plugins/wpforms-lite/assets/lib
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/wpforms-lite/assets/js/share/utils.min.js
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-content/plugins/wpforms-lite/assets/js/share
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms.min.js
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-content/plugins/wpforms-lite/assets/js/frontend
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms-modern.min.js
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-content/plugins/wpforms-lite/assets/js/frontend
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/wpforms-lite/assets/css/frontend/modern/wpforms-full.min.css
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: G:/xampp/htdocs/strona/wp-content/plugins/wpforms-lite/assets/css/frontend/modern
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:98] [Transfer] Total Pages:31. Processed Pages: 31
+[2025-03-23 11:27:28] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 31 of 31 files
+[2025-03-23 11:27:28] [trait-can-process-pages.php:114] Total pages: 31; Pages remaining: 0
+[2025-03-23 11:27:28] [class-ss-transfer-files-locally-task.php:197] Transferring 404 Page
+[2025-03-23 11:27:28] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://m4upa.github.io/strona/" target="_blank">https://m4upa.github.io/strona/</a>
+[2025-03-23 11:27:28] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2025-03-23 11:27:28] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2025-03-23 11:27:28] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2025-03-23 11:27:28] [class-ss-wrapup-task.php:23] Deleting temporary files
+[2025-03-23 11:27:28] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-03-23 11:27:28] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2025-03-23 11:27:28] [class-ss-archive-creation-job.php:244] Completing the job
+[2025-03-23 11:27:28] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:00:15
